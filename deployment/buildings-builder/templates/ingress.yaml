@@ -1,0 +1,24 @@
+kind: Ingress
+apiVersion: networking.k8s.io/v1
+metadata:
+  name: {{ .Values.ingress.name }}
+  namespace: {{ .Values.app.namespace }}
+  labels:
+    app.kubernetes.io/managed-by: "Helm"
+    group: front
+  annotations:
+    meta.helm.sh/release-namespace: {{ .Values.app.namespace }}
+    ingress.kubernetes.io/rewrite-target: /
+    kubernetes.io/ingress.class: "kong"
+spec:
+  rules:
+  - host: {{ .Values.ingress.host }}
+    http:
+        paths:
+          - pathType: Prefix
+            path: /
+            backend:
+              service:
+                name: {{ .Values.service.name }}
+                port:
+                  number: {{ .Values.service.port }}

@@ -1,0 +1,6 @@
+export const {
+  REACT_APP_AUTH_URI,
+  REACT_APP_API_URI,
+  REACT_APP_LOGIN_PORTAL,
+  REACT_APP_INVENTORY_UI_URI
+} = process.env

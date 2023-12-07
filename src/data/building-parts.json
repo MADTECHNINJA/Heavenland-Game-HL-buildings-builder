@@ -1,0 +1,827 @@
+{
+  "bases": [
+    {
+      "building_game_id": "SM_B_i0_Base_Flor.fbx",
+      "label": "Base 1",
+      "path": "/assets/fbx/SM_B_i0_Base_Flor.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_i0_Base_Flor.png",
+      "group": "bases"
+    },
+    {
+      "building_game_id": "SM_B_i1_Base_Flor.fbx",
+      "label": "Base 2",
+      "path": "/assets/fbx/SM_B_i1_Base_Flor.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_i1_Base_Flor.png",
+      "group": "bases"
+    },
+    {
+      "building_game_id": "SM_B_i2_Base_Flor.fbx",
+      "label": "Base 3",
+      "path": "/assets/fbx/SM_B_i2_Base_Flor.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_i2_Base_Flor.png",
+      "group": "bases"
+    },
+    {
+      "building_game_id": "SM_B_i3_Base_Flor.fbx",
+      "label": "Base 4",
+      "path": "/assets/fbx/SM_B_i3_Base_Flor.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_i3_Base_Flor.png",
+      "group": "bases"
+    },
+    {
+      "building_game_id": "SM_B_i4_Base.fbx",
+      "label": "Base 5",
+      "path": "/assets/fbx/SM_B_i4_Base.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_i4_Base.png",
+      "group": "bases"
+    },
+    {
+      "building_game_id": "SM_B_i5_Base.fbx",
+      "label": "Base 6",
+      "path": "/assets/fbx/SM_B_i5_Base.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_i5_Base.png",
+      "group": "bases"
+    },
+    {
+      "building_game_id": "SM_B_i6__base.fbx",
+      "label": "Base 7",
+      "path": "/assets/fbx/SM_B_i6__base.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_i6__base.png",
+      "group": "bases"
+    },
+    {
+      "building_game_id": "SM_B_Mate_Base_01.fbx",
+      "label": "Base 8",
+      "path": "/assets/fbx/SM_B_Mate_Base_01.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_Mate_Base_01.png",
+      "group": "bases"
+    },
+    {
+      "building_game_id": "SM_B_Simple_01.fbx",
+      "label": "Base 9",
+      "path": "/assets/fbx/SM_B_Simple_01.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_Simple_01.png",
+      "group": "bases"
+    },
+    {
+      "building_game_id": "SM_Building01_FL_2.fbx",
+      "label": "Base 10",
+      "path": "/assets/fbx/SM_Building01_FL_2.fbx",
+      "thumbnail": "/assets/thumbnails/SM_Building01_FL_2.png",
+      "group": "bases"
+    },
+    {
+      "building_game_id": "SM_Building_Base_MK4.fbx",
+      "label": "Base 11",
+      "path": "/assets/fbx/SM_Building_Base_MK4.fbx",
+      "thumbnail": "/assets/thumbnails/SM_Building_Base_MK4.png",
+      "group": "bases"
+    },
+    {
+      "building_game_id": "SM_Building_Base_MK5.fbx",
+      "label": "Base 12",
+      "path": "/assets/fbx/SM_Building_Base_MK5.fbx",
+      "thumbnail": "/assets/thumbnails/SM_Building_Base_MK5.png",
+      "group": "bases"
+    },
+    {
+      "building_game_id": "SM_Building_Base_MK6.fbx",
+      "label": "Base 13",
+      "path": "/assets/fbx/SM_Building_Base_MK6.fbx",
+      "thumbnail": "/assets/thumbnails/SM_Building_Base_MK6.png",
+      "group": "bases"
+    },
+    {
+      "building_game_id": "SM_Building_Base_MK7.fbx",
+      "label": "Base 14",
+      "path": "/assets/fbx/SM_Building_Base_MK7.fbx",
+      "thumbnail": "/assets/thumbnails/SM_Building_Base_MK7.png",
+      "group": "bases"
+    },
+    {
+      "building_game_id": "SM_Building_FL_01.fbx",
+      "label": "Base 15",
+      "path": "/assets/fbx/SM_Building_FL_01.fbx",
+      "thumbnail": "/assets/thumbnails/SM_Building_FL_01.png",
+      "group": "bases"
+    },
+    {
+      "building_game_id": "SM_BuildingMK1_Base.fbx",
+      "label": "Base 16",
+      "path": "/assets/fbx/SM_BuildingMK1_Base.fbx",
+      "thumbnail": "/assets/thumbnails/SM_BuildingMK1_Base.png",
+      "group": "bases"
+    },
+    {
+      "building_game_id": "SM_BuildingMK2_Base01.fbx",
+      "label": "Base 17",
+      "path": "/assets/fbx/SM_BuildingMK2_Base01.fbx",
+      "thumbnail": "/assets/thumbnails/SM_BuildingMK2_Base01.png",
+      "group": "bases"
+    },
+    {
+      "building_game_id": "SM_BuildingMK2_Base02.fbx",
+      "label": "Base 18",
+      "path": "/assets/fbx/SM_BuildingMK2_Base02.fbx",
+      "thumbnail": "/assets/thumbnails/SM_BuildingMK2_Base02.png",
+      "group": "bases"
+    },
+    {
+      "building_game_id": "SM_Building_MK3_Base.fbx",
+      "label": "Base 19",
+      "path": "/assets/fbx/SM_Building_MK3_Base.fbx",
+      "thumbnail": "/assets/thumbnails/SM_Building_MK3_Base.png",
+      "group": "bases"
+    },
+    {
+      "building_game_id": "SM_B_Abraham_base.fbx",
+      "label": "Base 20",
+      "path": "/assets/fbx/SM_B_Abraham_base.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_Abraham_base.png",
+      "group": "bases"
+    },
+    {
+      "building_game_id": "SM_B_Mauro1_base.fbx",
+      "label": "Base 21",
+      "path": "/assets/fbx/SM_B_Mauro1_base.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_Mauro1_base.png",
+      "group": "bases"
+    },
+    {
+      "building_game_id": "SM_MK9_Building_Base_001.fbx",
+      "label": "Base 22",
+      "path": "/assets/fbx/SM_MK9_Building_Base_001.fbx",
+      "thumbnail": "/assets/thumbnails/SM_MK9_Building_Base_001.png",
+      "group": "bases"
+    },
+    {
+      "building_game_id": "SM_MK10_Building_Base_001.fbx",
+      "label": "Base 23",
+      "path": "/assets/fbx/SM_MK10_Building_Base_001.fbx",
+      "thumbnail": "/assets/thumbnails/SM_MK10_Building_Base_001.png",
+      "group": "bases"
+    },
+    {
+      "building_game_id": "SM_B_i7_Base.fbx",
+      "label": "Base 24",
+      "path": "/assets/fbx/SM_B_i7_Base.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_i7_Base.png",
+      "group": "bases"
+    },
+    {
+      "building_game_id": "SM_B_i8_Base.fbx",
+      "label": "Base 25",
+      "path": "/assets/fbx/SM_B_i8_Base.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_i8_Base.png",
+      "group": "bases"
+    },
+    {
+      "building_game_id": "SM_MK11_Base_001.fbx",
+      "label": "Base 26",
+      "path": "/assets/fbx/SM_MK11_Base_001.fbx",
+      "thumbnail": "/assets/thumbnails/SM_MK11_Base_001.png",
+      "group": "bases"
+    },
+    {
+      "building_game_id": "SM_MK12_Base_001.fbx",
+      "label": "Base 27",
+      "path": "/assets/fbx/SM_MK12_Base_001.fbx",
+      "thumbnail": "/assets/thumbnails/SM_MK12_Base_001.png",
+      "group": "bases"
+    },
+    {
+      "building_game_id": "SM_B_i10_Base.fbx",
+      "label": "Base 28",
+      "path": "/assets/fbx/SM_B_i10_Base.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_i10_Base.png",
+      "group": "bases"
+    },
+    {
+      "building_game_id": "SM_B_i9_Base.fbx",
+      "label": "Base 29",
+      "path": "/assets/fbx/SM_B_i9_Base.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_i9_Base.png",
+      "group": "bases"
+    },
+    {
+      "building_game_id": "SM_MK13_Base_001.fbx",
+      "label": "Base 30",
+      "path": "/assets/fbx/SM_MK13_Base_001.fbx",
+      "thumbnail": "/assets/thumbnails/SM_MK13_Base_001.png",
+      "group": "bases"
+    },
+    {
+      "building_game_id": "SM_MK14_Base_001.fbx",
+      "label": "Base 31",
+      "path": "/assets/fbx/SM_MK14_Base_001.fbx",
+      "thumbnail": "/assets/thumbnails/SM_MK14_Base_001.png",
+      "group": "bases"
+    }
+  ],
+  "floors": [
+    {
+      "building_game_id": "SM_B_i0_mid_floor.fbx",
+      "label": "Floor 1",
+      "path": "/assets/fbx/SM_B_i0_mid_floor.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_i0_mid_floor.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_B_i1_floor1.fbx",
+      "label": "Floor 2",
+      "path": "/assets/fbx/SM_B_i1_floor1.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_i1_floor1.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_B_i1_floor2.fbx",
+      "label": "Floor 3",
+      "path": "/assets/fbx/SM_B_i1_floor2.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_i1_floor2.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_B_i2_floor1.fbx",
+      "label": "Floor 4",
+      "path": "/assets/fbx/SM_B_i2_floor1.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_i2_floor1.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_B_i2_floor2.fbx",
+      "label": "Floor 5",
+      "path": "/assets/fbx/SM_B_i2_floor2.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_i2_floor2.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_B_i3_floor2.fbx",
+      "label": "Floor 6",
+      "path": "/assets/fbx/SM_B_i3_floor2.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_i3_floor2.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_B_i3_floor3.fbx",
+      "label": "Floor 7",
+      "path": "/assets/fbx/SM_B_i3_floor3.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_i3_floor3.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_B_i4_mid1.fbx",
+      "label": "Floor 8",
+      "path": "/assets/fbx/SM_B_i4_mid1.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_i4_mid1.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_B_i4_mid2.fbx",
+      "label": "Floor 9",
+      "path": "/assets/fbx/SM_B_i4_mid2.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_i4_mid2.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_B_i5_mid.fbx",
+      "label": "Floor 10",
+      "path": "/assets/fbx/SM_B_i5_mid.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_i5_mid.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_B_i6__mid.fbx",
+      "label": "Floor 11",
+      "path": "/assets/fbx/SM_B_i6__mid.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_i6__mid.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_B_Mate_Floor_01.fbx",
+      "label": "Floor 12",
+      "path": "/assets/fbx/SM_B_Mate_Floor_01.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_Mate_Floor_01.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_B_Mate_Floor_02.fbx",
+      "label": "Floor 13",
+      "path": "/assets/fbx/SM_B_Mate_Floor_02.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_Mate_Floor_02.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_B_Mate_Floor_03.fbx",
+      "label": "Floor 14",
+      "path": "/assets/fbx/SM_B_Mate_Floor_03.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_Mate_Floor_03.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_B_Simple_02.fbx",
+      "label": "Floor 15",
+      "path": "/assets/fbx/SM_B_Simple_02.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_Simple_02.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_B_Simple_03.fbx",
+      "label": "Floor 16",
+      "path": "/assets/fbx/SM_B_Simple_03.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_Simple_03.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_B_Simple_04.fbx",
+      "label": "Floor 17",
+      "path": "/assets/fbx/SM_B_Simple_04.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_Simple_04.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_Building01_FL_3.fbx",
+      "label": "Floor 18",
+      "path": "/assets/fbx/SM_Building01_FL_3.fbx",
+      "thumbnail": "/assets/thumbnails/SM_Building01_FL_3.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_Building_FL_3.fbx",
+      "label": "Floor 19",
+      "path": "/assets/fbx/SM_Building_FL_3.fbx",
+      "thumbnail": "/assets/thumbnails/SM_Building_FL_3.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_Building_Middle_01_MK5.fbx",
+      "label": "Floor 20",
+      "path": "/assets/fbx/SM_Building_Middle_01_MK5.fbx",
+      "thumbnail": "/assets/thumbnails/SM_Building_Middle_01_MK5.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_Building_Middle01_MK6.fbx",
+      "label": "Floor 21",
+      "path": "/assets/fbx/SM_Building_Middle01_MK6.fbx",
+      "thumbnail": "/assets/thumbnails/SM_Building_Middle01_MK6.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_Building_Middle_02_MK5.fbx",
+      "label": "Floor 22",
+      "path": "/assets/fbx/SM_Building_Middle_02_MK5.fbx",
+      "thumbnail": "/assets/thumbnails/SM_Building_Middle_02_MK5.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_Building_Middle02_MK6.fbx",
+      "label": "Floor 23",
+      "path": "/assets/fbx/SM_Building_Middle02_MK6.fbx",
+      "thumbnail": "/assets/thumbnails/SM_Building_Middle02_MK6.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_Building_Middle_MK4.fbx",
+      "label": "Floor 24",
+      "path": "/assets/fbx/SM_Building_Middle_MK4.fbx",
+      "thumbnail": "/assets/thumbnails/SM_Building_Middle_MK4.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_Building_Middle_MK7.fbx",
+      "label": "Floor 25",
+      "path": "/assets/fbx/SM_Building_Middle_MK7.fbx",
+      "thumbnail": "/assets/thumbnails/SM_Building_Middle_MK7.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_BuildingMK1_Middle-Roof01.fbx",
+      "label": "Floor 26",
+      "path": "/assets/fbx/SM_BuildingMK1_Middle-Roof01.fbx",
+      "thumbnail": "/assets/thumbnails/SM_BuildingMK1_Middle-Roof01.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_BuildingMK1_Middle-Roof02.fbx",
+      "label": "Floor 27",
+      "path": "/assets/fbx/SM_BuildingMK1_Middle-Roof02.fbx",
+      "thumbnail": "/assets/thumbnails/SM_BuildingMK1_Middle-Roof02.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_BuildingMK2_Middle01.fbx",
+      "label": "Floor 28",
+      "path": "/assets/fbx/SM_BuildingMK2_Middle01.fbx",
+      "thumbnail": "/assets/thumbnails/SM_BuildingMK2_Middle01.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_BuildingMK2_Middle02.fbx",
+      "label": "Floor 29",
+      "path": "/assets/fbx/SM_BuildingMK2_Middle02.fbx",
+      "thumbnail": "/assets/thumbnails/SM_BuildingMK2_Middle02.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_BuildingMK2_Middle03.fbx",
+      "label": "Floor 30",
+      "path": "/assets/fbx/SM_BuildingMK2_Middle03.fbx",
+      "thumbnail": "/assets/thumbnails/SM_BuildingMK2_Middle03.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_Building_MK3_Middle_01.fbx",
+      "label": "Floor 31",
+      "path": "/assets/fbx/SM_Building_MK3_Middle_01.fbx",
+      "thumbnail": "/assets/thumbnails/SM_Building_MK3_Middle_01.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_Building_MK3_Middle_02.fbx",
+      "label": "Floor 32",
+      "path": "/assets/fbx/SM_Building_MK3_Middle_02.fbx",
+      "thumbnail": "/assets/thumbnails/SM_Building_MK3_Middle_02.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_Building_MK3_Middle_03.fbx",
+      "label": "Floor 33",
+      "path": "/assets/fbx/SM_Building_MK3_Middle_03.fbx",
+      "thumbnail": "/assets/thumbnails/SM_Building_MK3_Middle_03.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_Building_MK3_Middle_04.fbx",
+      "label": "Floor 34",
+      "path": "/assets/fbx/SM_Building_MK3_Middle_04.fbx",
+      "thumbnail": "/assets/thumbnails/SM_Building_MK3_Middle_04.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_Building_MK3_Middle_05.fbx",
+      "label": "Floor 35",
+      "path": "/assets/fbx/SM_Building_MK3_Middle_05.fbx",
+      "thumbnail": "/assets/thumbnails/SM_Building_MK3_Middle_05.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_B_Abraham_mid.fbx",
+      "label": "Floor 36",
+      "path": "/assets/fbx/SM_B_Abraham_mid.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_Abraham_mid.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_B_Mauro1_mid.fbx",
+      "label": "Floor 37",
+      "path": "/assets/fbx/SM_B_Mauro1_mid.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_Mauro1_mid.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_Building_Middle_03_MK5.fbx",
+      "label": "Floor 38",
+      "path": "/assets/fbx/SM_Building_Middle_03_MK5.fbx",
+      "thumbnail": "/assets/thumbnails/SM_Building_Middle_03_MK5.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_MK9_Building_Middle_001.fbx",
+      "label": "Floor 39",
+      "path": "/assets/fbx/SM_MK9_Building_Middle_001.fbx",
+      "thumbnail": "/assets/thumbnails/SM_MK9_Building_Middle_001.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_MK9_Building_Middle_002.fbx",
+      "label": "Floor 40",
+      "path": "/assets/fbx/SM_MK9_Building_Middle_002.fbx",
+      "thumbnail": "/assets/thumbnails/SM_MK9_Building_Middle_002.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_MK9_Building_Middle_003.fbx",
+      "label": "Floor 41",
+      "path": "/assets/fbx/SM_MK9_Building_Middle_003.fbx",
+      "thumbnail": "/assets/thumbnails/SM_MK9_Building_Middle_003.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_MK10_Building_Middle_001.fbx",
+      "label": "Floor 42",
+      "path": "/assets/fbx/SM_MK10_Building_Middle_001.fbx",
+      "thumbnail": "/assets/thumbnails/SM_MK10_Building_Middle_001.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_MK10_Building_Middle_002.fbx",
+      "label": "Floor 43",
+      "path": "/assets/fbx/SM_MK10_Building_Middle_002.fbx",
+      "thumbnail": "/assets/thumbnails/SM_MK10_Building_Middle_002.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_MK10_Building_Middle_003.fbx",
+      "label": "Floor 44",
+      "path": "/assets/fbx/SM_MK10_Building_Middle_003.fbx",
+      "thumbnail": "/assets/thumbnails/SM_MK10_Building_Middle_003.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_MK10_Building_Middle_004.fbx",
+      "label": "Floor 45",
+      "path": "/assets/fbx/SM_MK10_Building_Middle_004.fbx",
+      "thumbnail": "/assets/thumbnails/SM_MK10_Building_Middle_004.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_B_i7_mid.fbx",
+      "label": "Floor 46",
+      "path": "/assets/fbx/SM_B_i7_mid.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_i7_mid.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_B_i8_Mid.fbx",
+      "label": "Floor 47",
+      "path": "/assets/fbx/SM_B_i8_Mid.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_i8_Mid.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_MK11_Middle_001.fbx",
+      "label": "Floor 48",
+      "path": "/assets/fbx/SM_MK11_Middle_001.fbx",
+      "thumbnail": "/assets/thumbnails/SM_MK11_Middle_001.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_MK11_Middle_002.fbx",
+      "label": "Floor 49",
+      "path": "/assets/fbx/SM_MK11_Middle_002.fbx",
+      "thumbnail": "/assets/thumbnails/SM_MK11_Middle_002.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_MK11_Middle_003.fbx",
+      "label": "Floor 50",
+      "path": "/assets/fbx/SM_MK11_Middle_003.fbx",
+      "thumbnail": "/assets/thumbnails/SM_MK11_Middle_003.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_MK12_Middle_001.fbx",
+      "label": "Floor 51",
+      "path": "/assets/fbx/SM_MK12_Middle_001.fbx",
+      "thumbnail": "/assets/thumbnails/SM_MK12_Middle_001.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_MK12_Middle_002.fbx",
+      "label": "Floor 52",
+      "path": "/assets/fbx/SM_MK12_Middle_002.fbx",
+      "thumbnail": "/assets/thumbnails/SM_MK12_Middle_002.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_B_i10_Mid.fbx",
+      "label": "Floor 53",
+      "path": "/assets/fbx/SM_B_i10_Mid.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_i10_Mid.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_B_i9_Mid.fbx",
+      "label": "Floor 54",
+      "path": "/assets/fbx/SM_B_i9_Mid.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_i9_Mid.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_MK13_Middle_001.fbx",
+      "label": "Floor 55",
+      "path": "/assets/fbx/SM_MK13_Middle_001.fbx",
+      "thumbnail": "/assets/thumbnails/SM_MK13_Middle_001.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_MK13_Middle_002.fbx",
+      "label": "Floor 56",
+      "path": "/assets/fbx/SM_MK13_Middle_002.fbx",
+      "thumbnail": "/assets/thumbnails/SM_MK13_Middle_002.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_MK14_Middle_001.fbx",
+      "label": "Floor 57",
+      "path": "/assets/fbx/SM_MK14_Middle_001.fbx",
+      "thumbnail": "/assets/thumbnails/SM_MK14_Middle_001.png",
+      "group": "floors"
+    },
+    {
+      "building_game_id": "SM_MK14_Middle_002.fbx",
+      "label": "Floor 58",
+      "path": "/assets/fbx/SM_MK14_Middle_002.fbx",
+      "thumbnail": "/assets/thumbnails/SM_MK14_Middle_002.png",
+      "group": "floors"
+    }
+  ],
+  "roofs": [
+    {
+      "building_game_id": "SM_B_i0_roof_flor.fbx",
+      "label": "Roof 1",
+      "path": "/assets/fbx/SM_B_i0_roof_flor.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_i0_roof_flor.png",
+      "group": "roofs"
+    },
+    {
+      "building_game_id": "SM_B_i1_roof.fbx",
+      "label": "Roof 2",
+      "path": "/assets/fbx/SM_B_i1_roof.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_i1_roof.png",
+      "group": "roofs"
+    },
+    {
+      "building_game_id": "SM_B_i2_roof.fbx",
+      "label": "Roof 3",
+      "path": "/assets/fbx/SM_B_i2_roof.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_i2_roof.png",
+      "group": "roofs"
+    },
+    {
+      "building_game_id": "SM_B_i3_roof.fbx",
+      "label": "Roof 4",
+      "path": "/assets/fbx/SM_B_i3_roof.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_i3_roof.png",
+      "group": "roofs"
+    },
+    {
+      "building_game_id": "SM_B_i4_roof.fbx",
+      "label": "Roof 5",
+      "path": "/assets/fbx/SM_B_i4_roof.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_i4_roof.png",
+      "group": "roofs"
+    },
+    {
+      "building_game_id": "SM_B_i5_roof.fbx",
+      "label": "Roof 6",
+      "path": "/assets/fbx/SM_B_i5_roof.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_i5_roof.png",
+      "group": "roofs"
+    },
+    {
+      "building_game_id": "SM_B_i6__roof.fbx",
+      "label": "Roof 7",
+      "path": "/assets/fbx/SM_B_i6__roof.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_i6__roof.png",
+      "group": "roofs"
+    },
+    {
+      "building_game_id": "SM_B_Mate_Roof.fbx",
+      "label": "Roof 8",
+      "path": "/assets/fbx/SM_B_Mate_Roof.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_Mate_Roof.png",
+      "group": "roofs"
+    },
+    {
+      "building_game_id": "SM_Building01_FL_4.fbx",
+      "label": "Roof 9",
+      "path": "/assets/fbx/SM_Building01_FL_4.fbx",
+      "thumbnail": "/assets/thumbnails/SM_Building01_FL_4.png",
+      "group": "roofs"
+    },
+    {
+      "building_game_id": "SM_BuildingMK2_Roof.fbx",
+      "label": "Roof 10",
+      "path": "/assets/fbx/SM_BuildingMK2_Roof.fbx",
+      "thumbnail": "/assets/thumbnails/SM_BuildingMK2_Roof.png",
+      "group": "roofs"
+    },
+    {
+      "building_game_id": "SM_Building_MK3_Up_01.fbx",
+      "label": "Roof 11",
+      "path": "/assets/fbx/SM_Building_MK3_Up_01.fbx",
+      "thumbnail": "/assets/thumbnails/SM_Building_MK3_Up_01.png",
+      "group": "roofs"
+    },
+    {
+      "building_game_id": "SM_Building_MK3_Up_02.fbx",
+      "label": "Roof 12",
+      "path": "/assets/fbx/SM_Building_MK3_Up_02.fbx",
+      "thumbnail": "/assets/thumbnails/SM_Building_MK3_Up_02.png",
+      "group": "roofs"
+    },
+    {
+      "building_game_id": "SM_Building_Roof_MK4.fbx",
+      "label": "Roof 13",
+      "path": "/assets/fbx/SM_Building_Roof_MK4.fbx",
+      "thumbnail": "/assets/thumbnails/SM_Building_Roof_MK4.png",
+      "group": "roofs"
+    },
+    {
+      "building_game_id": "SM_Building_Roof_MK5.fbx",
+      "label": "Roof 14",
+      "path": "/assets/fbx/SM_Building_Roof_MK5.fbx",
+      "thumbnail": "/assets/thumbnails/SM_Building_Roof_MK5.png",
+      "group": "roofs"
+    },
+    {
+      "building_game_id": "SM_Building_Roof_MK6.fbx",
+      "label": "Roof 15",
+      "path": "/assets/fbx/SM_Building_Roof_MK6.fbx",
+      "thumbnail": "/assets/thumbnails/SM_Building_Roof_MK6.png",
+      "group": "roofs"
+    },
+    {
+      "building_game_id": "SM_Building_Roof_MK7.fbx",
+      "label": "Roof 16",
+      "path": "/assets/fbx/SM_Building_Roof_MK7.fbx",
+      "thumbnail": "/assets/thumbnails/SM_Building_Roof_MK7.png",
+      "group": "roofs"
+    },
+    {
+      "building_game_id": "SM_B_Abraham_roof.fbx",
+      "label": "Roof 17",
+      "path": "/assets/fbx/SM_B_Abraham_roof.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_Abraham_roof.png",
+      "group": "roofs"
+    },
+    {
+      "building_game_id": "SM_B_Mauro1_roof.fbx",
+      "label": "Roof 18",
+      "path": "/assets/fbx/SM_B_Mauro1_roof.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_Mauro1_roof.png",
+      "group": "roofs"
+    },
+    {
+      "building_game_id": "SM_MK9_Building_Roof.fbx",
+      "label": "Roof 19",
+      "path": "/assets/fbx/SM_MK9_Building_Roof.fbx",
+      "thumbnail": "/assets/thumbnails/SM_MK9_Building_Roof.png",
+      "group": "roofs"
+    },
+    {
+      "building_game_id": "SM_MK10_Building_Roof_001.fbx",
+      "label": "Roof 20",
+      "path": "/assets/fbx/SM_MK10_Building_Roof_001.fbx",
+      "thumbnail": "/assets/thumbnails/SM_MK10_Building_Roof_001.png",
+      "group": "roofs"
+    },
+    {
+      "building_game_id": "SM_B_i7_roof.fbx",
+      "label": "Roof 21",
+      "path": "/assets/fbx/SM_B_i7_roof.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_i7_roof.png",
+      "group": "roofs"
+    },
+    {
+      "building_game_id": "SM_B_i8_Roof.fbx",
+      "label": "Roof 22",
+      "path": "/assets/fbx/SM_B_i8_Roof.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_i8_Roof.png",
+      "group": "roofs"
+    },
+    {
+      "building_game_id": "SM_MK11_Roof_001.fbx",
+      "label": "Roof 23",
+      "path": "/assets/fbx/SM_MK11_Roof_001.fbx",
+      "thumbnail": "/assets/thumbnails/SM_MK11_Roof_001.png",
+      "group": "roofs"
+    },
+    {
+      "building_game_id": "SM_MK12_Roof_001.fbx",
+      "label": "Roof 24",
+      "path": "/assets/fbx/SM_MK12_Roof_001.fbx",
+      "thumbnail": "/assets/thumbnails/SM_MK12_Roof_001.png",
+      "group": "roofs"
+    },
+    {
+      "building_game_id": "SM_B_i10_Roof.fbx",
+      "label": "Roof 25",
+      "path": "/assets/fbx/SM_B_i10_Roof.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_i10_Roof.png",
+      "group": "roofs"
+    },
+    {
+      "building_game_id": "SM_B_i9_Roof.fbx",
+      "label": "Roof 26",
+      "path": "/assets/fbx/SM_B_i9_Roof.fbx",
+      "thumbnail": "/assets/thumbnails/SM_B_i9_Roof.png",
+      "group": "roofs"
+    },
+    {
+      "building_game_id": "SM_MK13_Roof_001.fbx",
+      "label": "Roof 27",
+      "path": "/assets/fbx/SM_MK13_Roof_001.fbx",
+      "thumbnail": "/assets/thumbnails/SM_MK13_Roof_001.png",
+      "group": "roofs"
+    },
+    {
+      "building_game_id": "SM_MK14_Roof_001.fbx",
+      "label": "Roof 28",
+      "path": "/assets/fbx/SM_MK14_Roof_001.fbx",
+      "thumbnail": "/assets/thumbnails/SM_MK14_Roof_001.png",
+      "group": "roofs"
+    }
+  ]
+}

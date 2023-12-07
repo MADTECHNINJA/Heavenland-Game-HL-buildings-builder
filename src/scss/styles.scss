@@ -1,0 +1,27 @@
+@import './variables';
+
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons';
+
+%btn-gradient-base {
+  background-repeat: no-repeat;
+  color: white;
+  border-radius: .6rem;
+
+  &:hover, &:active, &:focus {
+    border-color: #44f7c2 !important;
+    box-shadow: 0 0 16px #EC00F2;
+    color: white;
+  }
+}
+
+
+.btn-gradient {
+  @extend %btn-gradient-base;
+  background-image: linear-gradient(90deg, #4626e6 0%, #320d83 100%);
+}
+
+.btn-gradient-danger {
+  @extend %btn-gradient-base;
+  background-image: linear-gradient(90deg, #931113 0%, #c30f0e 100%);
+}

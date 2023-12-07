@@ -1,0 +1,6 @@
+@import '../variables';
+
+.main {
+  position: relative;
+  width: calc(100vw - $sidebar-width);
+}

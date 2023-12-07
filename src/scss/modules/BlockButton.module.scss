@@ -1,0 +1,33 @@
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/mixins';
+@import 'bootstrap/scss/variables';
+@import '../variables';
+
+.blockBtn {
+  width: 100%;
+  padding: .5rem;
+  background-color: $purple;
+  border: none;
+  border-radius: $border-radius;
+  color: white;
+  transition: box-shadow .3s, background-color .3s;
+
+  &:disabled {
+    color: gray;
+  }
+
+  &:not(:disabled) {
+    &:hover {
+      background: rgba(0, 0, 0, .7);
+    }
+
+    &:focus, &:active {
+      box-shadow: 0 0 7px skyblue;
+    }
+  }
+
+  > img {
+    width: 80%;
+    aspect-ratio: 1;
+  }
+}

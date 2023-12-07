@@ -1,0 +1,12 @@
+@import '../variables';
+
+.controls {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

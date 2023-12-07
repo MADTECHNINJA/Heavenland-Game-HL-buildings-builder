@@ -1,0 +1,37 @@
+@import '../variables';
+
+$opacity: .6;
+
+.sidebar {
+  width: $sidebar-width;
+  background: $dark-purple;
+  display: flex;
+  flex-direction: column;
+  border-right: 2px solid $light-purple;
+}
+
+.tabs {
+  border: none !important;
+  position: absolute;
+  top: 444px;
+  left: $sidebar-width;
+  z-index: 1;
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+}
+
+[class~=nav-link] {
+  color: white !important;
+  border: none !important;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-left-radius: 8px !important;
+  border-bottom-right-radius: 8px !important;
+  background: $dark-purple !important;
+  text-transform: capitalize;
+  padding: 10px 40px !important;
+}
+
+button[class~=active] {
+  background: linear-gradient(#4626e6 0%, #320d83 100%) !important;
+}

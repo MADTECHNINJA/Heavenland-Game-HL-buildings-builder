@@ -1,0 +1,117 @@
+options:
+  docker: true
+  size: 2x
+
+definitions:
+  services:
+    docker:
+      memory: 6144
+  steps:
+
+
+    - step: &build-dev-image
+        name: Build Buildings Builder Docker image
+        image: adoptopenjdk/openjdk11:jre-11.0.9_11.1-alpine
+        script:
+          - apk add --no-cache openssh-client bash
+          - mv .env.dev .env
+          - docker build -f deployment/Dockerfile -t buildings-builder  .
+          - docker save --output tmp-image.docker buildings-builder
+        artifacts:
+          - tmp-image.docker
+    - step: &docker-push-and-deploy-cloudrun
+        name: Push to GCP registry
+        image: google/cloud-sdk:alpine
+        script:
+          - docker load --input ./tmp-image.docker
+          - export SERVICE_NAME='buildings-builder'
+          - export PROJECT_NAME='extreme-arch-347212'
+          - echo $GCLOUD_API_KEYFILE | base64 -d > ./gcloud-api-key.json
+          - gcloud auth activate-service-account --key-file gcloud-api-key.json
+          - gcloud config list
+          - gcloud config set project $PROJECT_NAME
+          - export IMAGE_NAME=us-central1-docker.pkg.dev/extreme-arch-347212/buildings-builder/buildings-builder:$(echo $BITBUCKET_COMMIT | cut -c1-8)
+          - docker tag buildings-builder ${IMAGE_NAME}
+          # check if google artifacts repository exist. If not create
+          - gcloud artifacts repositories list|grep buildings-builder || gcloud artifacts repositories create buildings-builder --repository-format=docker --location=us-central1
+          # Login to google artifact registry
+          - gcloud auth configure-docker us-central1-docker.pkg.dev
+          - docker push ${IMAGE_NAME}
+          - docker push $IMAGE_NAME
+          - gcloud run deploy $SERVICE_NAME --image $IMAGE_NAME --region us-central1 --project $PROJECT_NAME --platform managed --allow-unauthenticated
+
+          - echo "ALL DONE DEPLOYMENT HAS BEEN SUCCEDED"
+    - step: &build-image_production
+        name: Build Docker image
+        image: node:alpine
+        script:
+          - mv .env.prod .env
+          - docker build -f deployment/Dockerfile -t buildings-builder:${BITBUCKET_COMMIT} .
+          - docker save --output tmp-image.docker buildings-builder
+        artifacts:
+          - tmp-image.docker
+    - step: &deploy_production
+        name: Push to GCP registry
+        image: google/cloud-sdk:alpine
+        script:
+          - docker load --input ./tmp-image.docker
+          # Authenticating with the service account key file
+          - echo $GCLOUD_API_KEYFILE_PRODUCTION> /tmp/gcloud-api-key.json
+          - gcloud auth activate-service-account --key-file /tmp/gcloud-api-key.json
+          - gcloud config set project $GCLOUD_PROJECT_ID_PRODUCTION
+          # Tag container & push
+          - export TAG=$(echo "$BITBUCKET_TAG" | sed -e "s/v//g")
+          - export SUFFIX=$([[ ! -z "$TAG" ]] && echo ":$TAG" || echo "")
+          - export IMAGE_NAME=gcr.io/heavenland-production/buildings-builder:${BITBUCKET_COMMIT}
+          - docker tag buildings-builder:${BITBUCKET_COMMIT} ${IMAGE_NAME}
+          # Login to google docker hub
+          - cat /tmp/gcloud-api-key.json | docker login -u _json_key --password-stdin https://gcr.io
+          - docker push ${IMAGE_NAME}
+          - gcloud container images list
+          - curl -o /tmp/google-cloud-sdk.tar.gz https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-388.0.0-linux-x86_64.tar.gz
+          - tar -xvf /tmp/google-cloud-sdk.tar.gz -C /tmp/
+          - /tmp/google-cloud-sdk/install.sh -q
+          - source /tmp/google-cloud-sdk/path.bash.inc
+          - apk add --no-cache openssh-client bash
+          # download helm
+          - export VERIFY_CHECKSUM=false
+          - curl -sSL https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bash
+          - helm version
+          # push gke and aplly helm
+          - gcloud container clusters get-credentials general-cluster --zone=europe-west1-b --project $GCLOUD_PROJECT_ID_PRODUCTION
+          - gcloud components install kubectl
+          # upgrade helm
+          - helm upgrade
+            --install
+            --namespace="buildings-builder-production"
+            --set app.name="buildings-builder"
+            --set ingress.name="buildings-builder-ingress"
+            --set ingress.host="buildings.heavenland.io"
+            --set app.replicaCount="2"
+            --set app.namespace="buildings-builder-production"
+            --set service.port="3000"
+            --set service.type="NodePort"
+            --set app.port="3000"
+            --set service.name="buildings-builder-prod"
+            --set image.repo="heavenland-production"
+            --set image.name="buildings-builder"
+            --set image.tag="${BITBUCKET_COMMIT}"
+            --wait
+            --timeout 1000s
+            --debug
+            buildings-builder-prod-release
+            ./deployment/buildings-builder
+
+pipelines:
+  tags:
+    v*:
+      - step: *build-image_production
+      - step: *deploy_production
+
+  branches:
+    main:
+      - step: *build-dev-image
+      - step: *docker-push-and-deploy-cloudrun
+    production:
+      - step: *build-image_production
+      - step: *deploy_production
